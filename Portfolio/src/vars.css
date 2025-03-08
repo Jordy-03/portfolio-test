@@ -1,0 +1,17 @@
+/* 
+Purpose: Help up define certain colors and import
+variables in other places. Makes easier to modify
+values later on.
+*/
+
+:root {
+    /* Colors */
+    --color-text: #fff;
+    --color-primary: #575cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+
+    /* Fonts */
+    --font-robot: "roboto";
+}
