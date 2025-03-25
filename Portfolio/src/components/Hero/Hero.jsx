@@ -14,8 +14,6 @@ export const Hero = () => {
                 <a className={styles.contactBtn} href="mailto:jor.rui03@gmail.com">Contact Me</a>
             </div>
             <img className={styles.portrait} src={"./assets/images/portrait-circle.png"} alt={"3D illustration"} />
-            <div className={styles.topBlur} />
-            <div className={styles.bottomBlur} />
         </section>
     );
 }
