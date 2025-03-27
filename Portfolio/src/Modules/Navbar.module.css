@@ -1,4 +1,4 @@
-@import '../../vars.css';
+@import '../vars.css';
 
 li a:hover {
     opacity: 0.7;
