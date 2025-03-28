@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from '../Modules/Navbar.module.css'
 
 export const Navbar = () => {
@@ -18,7 +19,7 @@ export const Navbar = () => {
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                     onClick={() => setMenuOpen(false)}>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="./Pages/About">About</a>
                     </li>
                     <li>
                         <a href="#experience">Experience</a>

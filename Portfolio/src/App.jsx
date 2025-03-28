@@ -1,4 +1,5 @@
 import style from './App.module.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Hero } from './Pages/Hero';
 
@@ -7,7 +8,12 @@ function App() {
   return (
     <div className={style.App}>
       <Navbar />
-      <Hero />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+        </Routes>
+      </Router>
+      
     </div>
   )
 }
