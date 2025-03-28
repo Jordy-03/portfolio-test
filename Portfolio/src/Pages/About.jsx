@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../Modules/About.module.css'
+import styles from '../Modules/Hero.module.css'
 
 export const About = () => {
     return (
@@ -7,9 +7,9 @@ export const About = () => {
             <div className= {styles.content}>
                 <h1 className={styles.title}>About Me</h1>
                 <p className={styles.description}>
-                    HELLO WORLD
+                    HELLO WORLD!
                 </p>
             </div>
         </section>
-    )
+    );
 }
