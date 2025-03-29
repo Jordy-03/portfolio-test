@@ -3,8 +3,9 @@
 .container {
     position: relative;
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 49px;
     z-index: 1;
     margin-left: 15%;
@@ -21,16 +22,17 @@
 
 .title {
     font-family: var(--font-pt-serif);
-    font-size: 72px;
+    color: #484848;
+    font-size: 50px;
     font-weight: 900;
     margin-bottom: 33px;
 }
 
 .description {
-    font-size: 30px;
+    font-size: 70px;
     font-family: var(--font-pt-serif);
     margin-bottom: 52px;
-    width: 75%;
+    width: 100%;
 }
 
 .contactBtn {
@@ -55,48 +57,50 @@
     transform: scale(1.05);
 }
 
-.portrait {
-    width: 43%;
+.image {
+    width: 50%;
     z-index: 1;
 
-    animation-name: floating;
+    /* animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes floating {
-    0% {
-        transform: translate(0, 0px);
-    }
-
-    50% {
-        transform: translate(0, 10px);
-    }
-
-    100% {
-        transform: translate(0, -0px);
-    }
+    animation-timing-function: ease-in-out; */
 }
 
 .emoji {
     background: initial;
+    display: inline-block; /* Required for transform to work properly */
+    animation: wave 3s infinite; /* Smooth easing with a 2-second pause built in */
+    transform-origin: 70% 80%; /* Anchor at the "palm" */
 }
 
-@media screen and (max-width: 830px) {
+@keyframes wave {
+    0%   { transform: rotate(0deg);   }
+    25%  { transform: rotate(-20deg); } /* Rotate left */
+    50%  { transform: rotate(0deg);   } /* Return to center */
+    75%  { transform: rotate(20deg);  } /* Rotate right */
+    100% { transform: rotate(0deg);   } /* Back to center */
+}
+
+@media screen and (max-width: 1500px) {
     .container {
-        flex-direction: column-reverse;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        justify-content: center;
     }
 
-    .content {
-        align-items: center;
+    .content-wrapper {
+        flex-direction: column; /* Stack description and image */
+        gap: 20px; /* Add spacing between stacked items */
     }
 
     .title {
-        text-align: center;
+        text-align: center; /* Center-align title for consistency */
     }
 
     .description {
-        text-align: justify;
-    }
+        text-align: center; /* Center-align description */
+        width: 90%; /* Reduce width for smaller screens */
+        font-size: 30px;
+    }   
 }

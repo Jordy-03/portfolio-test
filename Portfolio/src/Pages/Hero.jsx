@@ -9,12 +9,14 @@ export const Hero = () => {
                     <span className={styles.emoji}>👋</span> Hola, me llamo <u>Jordy</u>!
                 </h1>
                 <p className={styles.description}>
-                    I am someone with a passion for creating efficient 
-                    and user-friendly web applications.
+                    I am passionate in creating efficient 
+                    and highly user-friendly web applications.
                 </p>
                 <a className={styles.contactBtn} href="mailto:jor.rui03@gmail.com">Contact Me</a>
             </div>
-            <img className={styles.portrait} src={"./assets/images/portrait-circle.png"} alt={"3D illustration"} />
+            <img className={styles.image} src="./assets/images/Rotation-Corrected.png" alt="GDG Officers" />
         </section>
+
+        
     );
 }
