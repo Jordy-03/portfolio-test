@@ -21,6 +21,7 @@ li a:hover {
 }
 
 .title {
+    font-family: var(--font-pt-serif);
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;      /* Remove underline */
@@ -43,6 +44,7 @@ li a:hover {
 }
 
 .menuItems a {
+    font-family: var(--font-pt-serif);
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;

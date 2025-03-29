@@ -6,12 +6,12 @@ values later on.
 
 :root {
     /* Colors */
-    --color-text: #fff;
+    --color-text: #000000;
     --color-primary: #575cbc;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
-    --color-bg: #04152d;
+    --color-bg: #ffffff;
 
     /* Fonts */
-    --font-roboto: "Roboto";
+    --font-pt-serif: "PT serif", serif;
 }
