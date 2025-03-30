@@ -3,7 +3,6 @@
 .container {
     position: relative;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     margin-top: 49px;
@@ -64,17 +63,17 @@
     margin-top: 20px; /* Add spacing from the content above */
 }
 
- .image {
-    width: 50%;
+.image {
+    width: 100%;
     z-index: 1;
+    margin-top: 20px; /* Add spacing from the content above */
+    margin-right: 1000px;
 }
 
 .imageDescription {
     font-size: 16px; /* Adjust font size to suit your design */
     color: var(--color-text); /* Use your text color variable */
     text-align: left; /* Align the text to the left */
-    margin-top: 10px; /* Add spacing between the image and text */
-    margin-left: auto; /* Align it to the left of the image */
     max-width: 80%; /* Ensure it doesn’t stretch too far */
 
 }
@@ -103,11 +102,6 @@
         justify-content: center;
     }
 
-    .content-wrapper {
-        flex-direction: column; /* Stack description and image */
-        gap: 20px; /* Add spacing between stacked items */
-    }
-
     .title {
         text-align: center; /* Center-align title for consistency */
         margin: 0 auto;
@@ -121,8 +115,15 @@
         font-size: 50px;
     }
 
+    .imageWrapper {
+        display: flex;
+        align-items: center; /* Center the image and description */
+        
+    }
+
     .image {
         width: 90%; /* Adjust image size for smaller screens */
+        /* margin-right: auto; */
     }
 
     .contactBtn {

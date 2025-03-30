@@ -14,10 +14,16 @@ export const Hero = () => {
                 </p>
                 <a className={styles.contactBtn} href="mailto:jor.rui03@gmail.com">Contact Me</a>
             </div>
-            <img className={styles.image} src="./assets/images/Rotation-Corrected.png" alt="GDG Officers" />
-            <p className={styles.imageDescription}>
-                Google Developer Group Officers 2025
-            </p>
+
+            <div>
+                <img className={styles.image} src="./assets/images/Rotation-Corrected.png" alt="GDG Officers" />
+                <p className={styles.imageDescription}>
+                    Google Developer Group Officers 2025
+                </p>
+            </div>
+
+
+
 
         </section>
 
