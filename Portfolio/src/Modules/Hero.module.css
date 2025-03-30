@@ -64,14 +64,9 @@
     margin-top: 20px; /* Add spacing from the content above */
 }
 
-.image {
+ .image {
     width: 50%;
     z-index: 1;
-
-    /* animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out; */
 }
 
 .imageDescription {

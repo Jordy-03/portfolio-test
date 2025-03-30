@@ -15,12 +15,9 @@ export const Hero = () => {
                 <a className={styles.contactBtn} href="mailto:jor.rui03@gmail.com">Contact Me</a>
             </div>
             <img className={styles.image} src="./assets/images/Rotation-Corrected.png" alt="GDG Officers" />
-
-            <div className={styles.imageWrapper}>
-                <p className={styles.imageDescription}>
-                    Google Developer Group Officers 2025
-                </p>
-            </div>
+            <p className={styles.imageDescription}>
+                Google Developer Group Officers 2025
+            </p>
 
         </section>
 
