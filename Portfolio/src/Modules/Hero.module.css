@@ -57,6 +57,13 @@
     transform: scale(1.05);
 }
 
+.imageWrapper {
+    display: flex;
+    flex-direction: column; /* Stack the image and description vertically */
+    align-items: flex-start; /* Align them to the left */
+    margin-top: 20px; /* Add spacing from the content above */
+}
+
 .image {
     width: 50%;
     z-index: 1;
@@ -65,6 +72,16 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out; */
+}
+
+.imageDescription {
+    font-size: 16px; /* Adjust font size to suit your design */
+    color: var(--color-text); /* Use your text color variable */
+    text-align: left; /* Align the text to the left */
+    margin-top: 10px; /* Add spacing between the image and text */
+    margin-left: auto; /* Align it to the left of the image */
+    max-width: 80%; /* Ensure it doesn’t stretch too far */
+
 }
 
 .emoji {
@@ -76,13 +93,15 @@
 
 @keyframes wave {
     0%   { transform: rotate(0deg);   }
-    25%  { transform: rotate(-20deg); } /* Rotate left */
-    50%  { transform: rotate(0deg);   } /* Return to center */
-    75%  { transform: rotate(20deg);  } /* Rotate right */
+    /*25%  { transform: rotate(-20deg); }  Rotate left */
+    50%  { transform: rotate(-25deg);   } /* Return to center */
+    /*75%  { transform: rotate(20deg);  }  Rotate right */
     100% { transform: rotate(0deg);   } /* Back to center */
 }
 
-@media screen and (max-width: 1500px) {
+
+
+@media screen and (max-width: 1625px) {
     .container {
         flex-direction: column; /* Stack items vertically */
         align-items: center;
@@ -96,11 +115,24 @@
 
     .title {
         text-align: center; /* Center-align title for consistency */
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .description {
         text-align: center; /* Center-align description */
         width: 90%; /* Reduce width for smaller screens */
-        font-size: 30px;
-    }   
-}
+        margin: 0 auto; /* Center the description */
+        font-size: 50px;
+    }
+
+    .image {
+        width: 90%; /* Adjust image size for smaller screens */
+    }
+
+    .contactBtn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+} 
