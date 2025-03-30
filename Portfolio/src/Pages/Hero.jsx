@@ -6,7 +6,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>
-                    <span className={styles.emoji}>👋</span> Hola, me llamo <u>Jordy</u>!
+                    <span className={styles.emoji}>👋</span> Hola, I'm <u>Jordy</u>!
                 </h1>
                 <p className={styles.description}>
                     I am passionate in creating highly efficient
