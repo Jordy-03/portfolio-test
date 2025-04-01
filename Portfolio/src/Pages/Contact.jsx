@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from '../Modules/Hero.module.css'
+import styles from '../Modules/Contact.module.css'
 
 export const Contact = () => {
     return (
-        <section>
-            <h1>Contact info</h1>
+        <section className={styles.container}>
+            <h1 className={styles.title}>Contact info</h1>
         </section>
     )
 }

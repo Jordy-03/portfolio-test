@@ -1,0 +1,21 @@
+@import '../vars.css';
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title {
+    font-family: var(--font-pt-serif);
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    margin-top: 33px;
+    margin-right: 20px;
+
+    color: #484848;
+
+}
