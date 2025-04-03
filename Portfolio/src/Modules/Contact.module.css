@@ -1,5 +1,6 @@
 @import '../vars.css';
 
+// This is the CSS file for the Contact component
 .container {
     position: relative;
     display: flex;
