@@ -1,12 +1,12 @@
 @import '../vars.css';
 
+/* Main container */
 .container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .title {
     font-family: var(--font-pt-serif);
