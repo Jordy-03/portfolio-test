@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+{/* This component was created using UIverse. All credit goes to Nawsome */}
+{/* Link to source code: https://uiverse.io/Nawsome/young-goat-78 */}
 export const Loader = () => {
   return (
     <StyledWrapper>
