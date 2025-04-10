@@ -12,9 +12,12 @@ export const Contact = () => {
                     Phone: (425) 524 - 1981<br />
                     Location: Renton, WA
                 </p>
-                <input type="text" className={styles.input} placeholder="Your Name" required></input>
-                <input type="email" className={styles.input} placeholder="Your Email" required></input>
-                <textarea className={styles.textarea} placeholder="Your Message"></textarea>
+                <div className={styles.container}>
+                    <input type="text" className={styles.input} placeholder="Your Name" required></input>
+                    <input type="email" className={styles.input} placeholder="Your Email" required></input>
+                    <textarea className={styles.textarea} placeholder="Your Message"></textarea>
+                </div>
+
             </div>
 
 
