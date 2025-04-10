@@ -23,8 +23,13 @@ export const Contact = () => {
 
 
                 <div className={styles.container}>
+                    <label className={styles.label}>Your Name</label>
                     <input type="text" className={styles.input} placeholder="Your Name" required></input>
+                    <label className={styles.label}>Your Email</label>
+
                     <input type="email" className={styles.input} placeholder="Your Email" required></input>
+                    <label className={styles.label}>Description</label>
+
                     <textarea className={styles.textarea} placeholder="Your Message"></textarea>
                 </div>
 
