@@ -5,6 +5,7 @@ export const Contact = () => {
     return (
         <section className={styles.container}>
             <h1 className={styles.title}>Contact Info</h1>
+            <br/>
             <p className={styles.information}>
                 Name: Jordy Ruiz<br/>
                 Email: jor.rui03@gmail.com<br/>
