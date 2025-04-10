@@ -6,12 +6,22 @@ export const Contact = () => {
         <section className={styles.container}>
             <h1 className={styles.title}>Contact Info</h1>
             <div className={styles.fields}>
-                <p className={styles.information}>
-                    Name: Jordy Ruiz<br />
-                    Email: jor.rui03@gmail.com<br />
-                    Phone: (425) 524 - 1981<br />
-                    Location: Renton, WA
-                </p>
+                <div className={styles.container}>
+                    <p className={styles.information}>
+                        Name: Jordy Ruiz
+                    </p>
+                    <p className={styles.information}>
+                        Email: jor.rui03@gmail.com
+                    </p>
+                    <p className={styles.information}>
+                        Phone: (425) 524 - 1981
+                    </p>
+                    <p className={styles.information}>
+                        Location: Renton, WA
+                    </p>
+                </div>
+
+
                 <div className={styles.container}>
                     <input type="text" className={styles.input} placeholder="Your Name" required></input>
                     <input type="email" className={styles.input} placeholder="Your Email" required></input>
