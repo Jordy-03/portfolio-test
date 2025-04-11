@@ -7,6 +7,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    
+}
+
+.container > .fields {
+    border: 5px solid var(--color-primary-light);
 }
 
 .fields {
