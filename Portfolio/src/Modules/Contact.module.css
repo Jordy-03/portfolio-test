@@ -11,10 +11,6 @@
     
 }
 
-.container > .fields {
-    border: 5px solid var(--color-primary-light);
-}
-
 .fields {
     position: relative;
     display: flex;
