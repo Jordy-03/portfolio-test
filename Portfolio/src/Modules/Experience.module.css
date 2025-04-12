@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+
+    font-family: var(--font-pt-serif);
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    margin-top: 33px;
+    margin-right: 20px;
+
+    color: #484848;
+}
