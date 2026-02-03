@@ -16,7 +16,7 @@ export const Hero = () => {
             </div>
 
             <div>
-                <img className={styles.image} src="./assets/images/Rotation-Corrected.png" alt="GDG Officers" />
+                <img className={styles.image} src="./assets/images/polaroid-image.jpeg" alt="GDG Officers" />
                 <p className={styles.imageDescription}>
                     Google Developer Group Officers 2025
                 </p>
