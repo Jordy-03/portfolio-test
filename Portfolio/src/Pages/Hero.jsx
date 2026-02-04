@@ -18,7 +18,7 @@ export const Hero = () => {
                 <a className={styles.contactBtn} href="mailto:jor.rui03@gmail.com">Contact Me</a>
             </div>
             <div>
-                <img className={styles.image} src="./assets/images/polaroid-image.jpeg" alt="GDG Officers" />
+                <img className={styles.image} src="/assets/images/polaroid-image.jpeg" alt="GDG Officers" />
             </div>
         </section>
     );
