@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../Modules/Experience.module.css';
 
 // import {ReactComponent as WorkIcon} from './work.svg'
-import timelineElements from '../components/Timeline.jsx'; // Updated Compontent folder name
+import timelineElements from '../Components/Timeline.jsx'; // Updated Compontent folder name
 import {
     VerticalTimeline,
     VerticalTimelineElement
