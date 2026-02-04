@@ -4,6 +4,9 @@ import styles from '../Modules/Hero.module.css'
 export const Hero = () => {
     return (
         <section className={styles.container}>
+            <div>
+
+            </div>
             <div className={styles.content}>
                 <h1 className={styles.title}>
                     <span className={styles.emoji}>👋</span> Hola, I'm <u>Jordy</u>!
@@ -14,19 +17,9 @@ export const Hero = () => {
                 </p>
                 <a className={styles.contactBtn} href="mailto:jor.rui03@gmail.com">Contact Me</a>
             </div>
-
             <div>
                 <img className={styles.image} src="./assets/images/polaroid-image.jpeg" alt="GDG Officers" />
-                <p className={styles.imageDescription}>
-                    Google Developer Group Officers 2025
-                </p>
             </div>
-
-
-
-
         </section>
-
-
     );
 }

@@ -75,7 +75,7 @@
 }
 
 .image {
-    width: 100%;
+    width: 75%;
     z-index: 1;
     margin-top: 20px; /* Add spacing from the content above */
     margin-right: 1000px;
