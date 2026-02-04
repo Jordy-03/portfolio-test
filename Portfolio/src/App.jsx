@@ -3,8 +3,8 @@ import style from './App.module.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Components
-import { Navbar } from './components/Navbar';
-import { Loader } from './components/Loader';
+import { Navbar } from './Components/Navbar';
+import { Loader } from './Components/Loader';
 
 // Pages
 import { Hero } from './Pages/Hero';
